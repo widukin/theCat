@@ -1,0 +1,10 @@
+header,
+footer {
+  text-align: center;
+}
+
+/* output container for js */
+.container {
+  border: dotted 1px gray;
+  margin: auto;
+}

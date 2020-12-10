@@ -9,6 +9,22 @@
       this._loneliness = loneliness;
       this._happiness = happiness;
     }
+
+    sleep () {
+      tiredness++;
+    }
+
+    feed () {
+      hunger--;
+    }
+
+    pet () {
+      loneliness--;
+    }
+
+    play () {
+      happiness++;
+    }
   }
 
 

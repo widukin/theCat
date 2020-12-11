@@ -1,10 +1,25 @@
 header,
+main,
 footer {
   text-align: center;
 }
 
+/* button */
+button {
+  width: 10em;
+  padding: 0.5em;
+  background-color: goldenrod;
+}
+
+button:hover {
+  background-color: rgb(128, 93, 6);
+  color: whitesmoke;
+  font-weight: 600;
+}
+
 /* output container for js */
 .container {
-  border: dotted 1px gray;
-  margin: auto;
+  border: dotted 1px goldenrod;
+  margin: 2em auto;
+  padding: 2em;
 }

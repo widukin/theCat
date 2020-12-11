@@ -24,9 +24,12 @@ export class Cat {
     happiness++;
   }
 
-  catsStatus () {
-    if
+  setCatsStatus () {
 
   }
-  Last, write a method that prints out the cat's status in each area. (Be creative e.g. Paws is really hungry, Paws is VERY happy.)
-  
+
+  getCatStatus () {
+
+    return 'i am fine';
+  }
+}

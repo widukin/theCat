@@ -2,16 +2,21 @@
 /* make the script more efficient */
 (function (window, document) {
   'use strict';
+
+  function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
   /* import the Cat object */
   /* import { Cat } from './theCat'; */ /* It is not working right now */
 
-class Cat {
-  constructor (tiredness = 0, hunger = 0, loneliness = 0, happiness = 0) {
-    this._name = 'Paws'
-    this._tiredness = tiredness;
-    this._hunger = hunger;
-    this._loneliness = loneliness;
-    this._happiness = happiness;
+  class Cat {
+    constructor () {
+      this._name = 'Paws'
+      this._tiredness = getRandomInt(-1, 1);
+      this._hunger = getRandomInt(-1, 1);
+      this._loneliness = getRandomInt(-1, 1);
+      this._happiness = getRandomInt(-1, 1);
   }
 
   sleep () {
@@ -69,13 +74,10 @@ class Cat {
   setStateOfHappiness () {
     let stateOfHappiness;
       if (this._happiness < 0) {
-        console.log(this._happiness + ' depressed');
       return stateOfHappiness = 'depressed';
     } else if (this._happiness === 0) {
-      console.log(this._happiness + ' ok');
       return stateOfHappiness = 'ok';
     } else if (this._happiness > 0) {
-      console.log(this._happiness + ' happy');
       return stateOfHappiness = 'happy';
     }
   }
@@ -96,11 +98,6 @@ class Cat {
     }
   }
 }
-
-/* 
-- Bonus: Make the functions take arguments that increase or decrease arbitrary amounts
-*/
-
   
   //ES6
   const getOutput = () => {

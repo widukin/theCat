@@ -90,11 +90,11 @@
     let stateOfHappiness = this.setStateOfHappiness();
 
     if (this._tiredness < 0 && this._hunger < 0 && this._loneliness > 0 && this._happiness < 0) {
-      return `${this._name} is really ${stateOfHunger} and so ${stateOfTiredness} at the moment. He is also feeling ${stateOfHappiness} because he is ${stateOfLoneliness}. Oh boy, he is very suicidal, right now! Please care about ${this._name}.`;
+      return `<b>${this._name}</b> is really <b>${stateOfHunger}</b> and so <b>${stateOfTiredness}</b> at the moment. He is also feeling <b>${stateOfHappiness}</b> because he is <b>${stateOfLoneliness}</b>. Oh boy, he is very suicidal, right now! Please care about <b>${this._name}</b>.`;
     } else if (this._tiredness > 0 && this._hunger === 0 && this._loneliness < 0 && this._happiness > 0) {
-      return `Dont pet ${this._name}!`;
+      return `Dont pet <b>${this._name}</b>!`;
     } else {
-      return `${this._name} is really ${stateOfHunger} and ${stateOfTiredness} right now. He is feeling ${stateOfHappiness} because he is ${stateOfLoneliness}.`;
+      return `<b>${this._name}</b> is really <b>${stateOfHunger}</b> and <b>${stateOfTiredness}</b> right now. He is feeling <b>${stateOfHappiness}</b> because he is <b>${stateOfLoneliness}</b>.`;
     }
   }
 }

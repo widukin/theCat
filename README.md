@@ -9,3 +9,7 @@ Write yourself a virtual cat - animals with a CLI are so much nicer than ones wi
 - Last, write a method that prints out the cat's status in each area. (Be creative e.g. Paws is really hungry, Paws is VERY happy.)
 - Bonus: Make the functions take arguments that increase or decrease arbitrary amounts
 - Bonus: Make the functions as arbitrary (or crazy) as cats are - sometimes make it so the cat doesn't want to be petted :)
+
+## How is Paws feeling Today?
+
+Go to [Github pages](https://widukin.github.io/theCat/), click the button as often as you want and see yourself.

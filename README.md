@@ -12,4 +12,4 @@ Write yourself a virtual cat - animals with a CLI are so much nicer than ones wi
 
 ## How is Paws feeling Today?
 
-Go to [Github pages](https://widukin.github.io/theCat/), click the button as often as you want and see yourself.
+Go to [Github pages](https://widukin.github.io/theCat/), click the button as often as you like and see yourself.

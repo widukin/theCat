@@ -24,3 +24,8 @@ button:hover {
   margin: 1em auto;
   padding: 1em;
 }
+
+/* Footer */
+footer {
+  font-size: 0.8em;
+}
